@@ -1,0 +1,8 @@
+[package]
+name = "codesync"
+version = "0.1.0"
+authors = ["Ben Morgan <neembi@gmail.com>"]
+
+[dependencies]
+walkdir = "2"
+clap = "2"

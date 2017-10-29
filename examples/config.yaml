@@ -1,0 +1,17 @@
+remotes:
+    order: [ "github", "gitlab" ]
+    github: {
+        url: "git@github.com:{user}/{repository}.git"
+        api_key:
+        ssh_id:
+        }
+    gitlab: {
+        url: "git@gitlab.com:{user}/{repository}.git"
+        api_key:
+        ssh_id:
+        }
+repositories:
+    - "~/lang/rust/vanity"
+    - "~/lang/rust/codesync"
+    - "~/lang/rust/cot"
+    - "~/lang/rust/minigrep"
